@@ -14,15 +14,25 @@ export function LazyVideo({
   poster,
 }: LazyVideoProps) {
   const ref = useRef<HTMLDivElement>(null);
+
   const [visible, setVisible] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [src, setSrc] = useState("");
 
   useEffect(() => {
-    const checkScreen = () => setIsMobile(window.innerWidth <= 768);
+    const update = () => {
+      setSrc(window.innerWidth <= 768 ? mobileSrc : desktopSrc);
+      setMounted(true);
+    };
 
-    checkScreen();
-    window.addEventListener("resize", checkScreen);
+    update();
 
+    window.addEventListener("resize", update);
+
+    return () => window.removeEventListener("resize", update);
+  }, [mobileSrc, desktopSrc]);
+
+  useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -35,17 +45,13 @@ export function LazyVideo({
 
     if (ref.current) observer.observe(ref.current);
 
-    return () => {
-      observer.disconnect();
-      window.removeEventListener("resize", checkScreen);
-    };
+    return () => observer.disconnect();
   }, []);
 
   return (
     <div ref={ref} className="absolute inset-0 z-0 h-full w-full">
-      {visible ? (
+      {mounted && visible ? (
         <video
-          key={isMobile ? "mobile" : "desktop"}
           autoPlay
           muted
           loop
@@ -54,10 +60,7 @@ export function LazyVideo({
           poster={poster}
           className="h-full w-full object-cover"
         >
-          <source
-            src={isMobile ? mobileSrc : desktopSrc}
-            type="video/mp4"
-          />
+          <source src={src} type="video/mp4" />
         </video>
       ) : (
         <img
