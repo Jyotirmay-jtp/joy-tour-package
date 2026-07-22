@@ -59,7 +59,7 @@ export function Navbar() {
         <button className="text-white md:hidden" onClick={() => setOpen(true)}><Menu className="h-6 w-6" /></button>
       </div>
       {open && (
-        <div className="fixed inset-0 z-50 bg-[#1B1B1B]/95 p-8 md:hidden">
+        <div className="fixed inset-0 z-50 bg-[#2A2438]/90 backdrop-blur-xl p-8 md:hidden">
           <button className="mb-10 text-white" onClick={() => setOpen(false)}><X className="h-6 w-6" /></button>
           <div className="flex flex-col gap-6">
             {navLinks.map((l) => (
