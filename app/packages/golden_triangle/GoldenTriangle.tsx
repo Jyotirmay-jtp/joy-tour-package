@@ -31,7 +31,7 @@ import {
 const days = [
   {
     id: 1,
-    image: "/images/golden_triangle/arrival.jpg",
+    image: "/images/packages/arrival.webp",
     icon: Plane,
     title: "Arrival in Delhi",
     place: "New Delhi",
@@ -42,7 +42,7 @@ const days = [
   },
   {
     id: 2,
-    image: "/images/golden_triangle/jama_masjid.jpg",
+    image: "/images/packages/jama_masjid.webp",
     icon: Landmark,
     title: "Old & New Delhi",
     place: "New Delhi",
@@ -59,7 +59,7 @@ const days = [
   },
   {
     id: 3,
-    image: "/images/golden_triangle/taj_mahal.jpg",
+    image: "/images/packages/taj_mahal.webp",
     icon: Heart,
     title: "Delhi → Agra",
     place: "Agra",
@@ -70,7 +70,7 @@ const days = [
   },
   {
     id: 4,
-    image: "/images/golden_triangle/chand_baori.jpg",
+    image: "/images/packages/chand_baori.webp",
     icon: Castle,
     title: "Agra → Jaipur",
     place: "Jaipur",
@@ -81,7 +81,7 @@ const days = [
   },
   {
     id: 5,
-    image: "/images/golden_triangle/jaipur.jpg",
+    image: "/images/packages/jaipur.webp",
     icon: Gem,
     title: "Explore Jaipur",
     place: "Jaipur, the Pink City",
@@ -92,7 +92,7 @@ const days = [
   },
   {
     id: 6,
-    image: "/images/golden_triangle/departure.jpg",
+    image: "/images/packages/departure.webp",
     icon: PlaneTakeoff,
     title: "Return to Delhi",
     place: "New Delhi",
