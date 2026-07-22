@@ -55,11 +55,8 @@ export default function GalleryPage() {
             <motion.div key={i} {...fadeUp} transition={{ ...fadeUp.transition, delay: (i % 8) * 0.05 }}
               className="group relative h-52 overflow-hidden rounded-3xl shadow-[0_20px_45px_-25px_rgba(27,27,27,0.3)] sm:h-64">
 <Image
-  src={img.src}
-  alt={`Gallery Image ${i + 1}`}
-  fill
-  className="object-cover transition-transform duration-700 group-hover:scale-110"
-/>             </motion.div>
+  src={img.src} alt={`Gallery Image ${i + 1}`} fill className="object-cover transition-transform duration-700 group-hover:scale-110" />            
+            </motion.div>
           ))}
         </div>
       </section>
