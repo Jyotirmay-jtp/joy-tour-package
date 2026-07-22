@@ -228,7 +228,11 @@ export default function GoldenTrianglePage() {
         variant="dark"
       />
       <IconGrid eyebrow="Why Travel With Us" title="Trusted, local, personal" items={whyUs} />
-      <CTA />
+      <CTA
+  heading="Ready to Explore the Golden Triangle?"
+  sub="Let Joy Tours of India create a seamless journey through Delhi, Agra, and Jaipur with personalized service and unforgettable experiences."
+  primary="Plan My Journey"
+/>
       <Footer />
     </main>
   );
