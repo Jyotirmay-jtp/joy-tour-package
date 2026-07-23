@@ -205,7 +205,12 @@ export function ContactSection() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus("sending");
-    emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.currentTarget, "YOUR_PUBLIC_KEY")
+    emailjs.sendForm(
+  "service_4ixt5ag",
+  "template_thdjav4",
+  e.currentTarget,
+  "YZZSiWmzRkPgCQRu7"
+)
       .then(() => setStatus("sent")).catch(() => setStatus("error"));
   };
 
