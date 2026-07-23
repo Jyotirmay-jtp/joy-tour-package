@@ -59,15 +59,16 @@ export function Navbar() {
         <button className="text-white md:hidden" onClick={() => setOpen(true)}><Menu className="h-6 w-6" /></button>
       </div>
       {open && (
-        <div className="fixed inset-0 z-50 bg-[#2A2438]/90 backdrop-blur-xl p-8 md:hidden">
-          <button className="mb-10 text-white" onClick={() => setOpen(false)}><X className="h-6 w-6" /></button>
-          <div className="flex flex-col gap-6">
-            {navLinks.map((l) => (
-              <a key={l.label} href={l.href} onClick={() => setOpen(false)} className="font-serif text-2xl text-white">{l.label}</a>
-            ))}
-            <a href="https://wa.me/919352744747" target="_blank" className="mt-4 rounded-full bg-[#DC2626] px-5 py-3 text-center text-sm font-semibold text-white">Plan My Trip</a>
-          </div>
-        </div>
+  <div className="fixed inset-0 z-50 bg-[#2A2438]/90 backdrop-blur-xl p-8 md:hidden">
+    <button className="mb-10 text-white" onClick={() => setOpen(false)}><X className="h-6 w-6" /></button>
+    <div className="flex flex-col gap-6">
+      {navLinks.map((l) => (
+        <a key={l.label} href={l.href} onClick={() => setOpen(false)} className="font-serif text-2xl text-white">{l.label}</a>
+      ))}
+      <a href="https://wa.me/919352744747" target="_blank" className="mt-4 rounded-full bg-[#DC2626] px-5 py-3 text-center text-sm font-semibold text-white">Plan My Trip</a>
+    </div>
+  </div>
+)}
       )}
     </header>
   );
