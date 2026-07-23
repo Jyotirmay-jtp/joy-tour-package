@@ -33,42 +33,33 @@ export function Navbar() {
 
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-  scrolled ? "bg-[#2A2438]/40 backdrop-blur-xl border-b border-white/10 shadow-lg" : "bg-transparent"}`}>
+      scrolled ? "bg-[#2A2438]/40 backdrop-blur-xl border-b border-white/10 shadow-lg" : "bg-transparent"}`}>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 sm:px-10">
         <Link href="/" className="font-serif text-xl text-white drop-shadow">Joy Tours of India</Link>
         <nav className="hidden items-center gap-8 md:flex">
-  {navLinks.map((l) => (
-    <Link
-      key={l.label}
-      href={l.href}
-      className="text-sm font-medium text-white/90 drop-shadow transition hover:text-white"
-    >
-      {l.label}
-    </Link>
-  ))}
-
-  <a
-    href="https://wa.me/919352744747"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="rounded-full bg-[#DC2626] px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-[#DC2626]/30 transition hover:bg-[#B91C1C]"
-  >
-    Plan My Trip
-  </a>
-</nav>
+          {navLinks.map((l) => (
+            <Link key={l.label} href={l.href} className="text-sm font-medium text-white/90 drop-shadow transition hover:text-white">
+              {l.label}
+            </Link>
+          ))}
+          <a href="https://wa.me/919352744747" target="_blank" rel="noopener noreferrer"
+            className="rounded-full bg-[#DC2626] px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-[#DC2626]/30 transition hover:bg-[#B91C1C]">
+            Plan My Trip
+          </a>
+        </nav>
         <button className="text-white md:hidden" onClick={() => setOpen(true)}><Menu className="h-6 w-6" /></button>
       </div>
+
       {open && (
-  <div className="fixed inset-0 z-50 bg-[#2A2438]/90 backdrop-blur-xl p-8 md:hidden">
-    <button className="mb-10 text-white" onClick={() => setOpen(false)}><X className="h-6 w-6" /></button>
-    <div className="flex flex-col gap-6">
-      {navLinks.map((l) => (
-        <a key={l.label} href={l.href} onClick={() => setOpen(false)} className="font-serif text-2xl text-white">{l.label}</a>
-      ))}
-      <a href="https://wa.me/919352744747" target="_blank" className="mt-4 rounded-full bg-[#DC2626] px-5 py-3 text-center text-sm font-semibold text-white">Plan My Trip</a>
-    </div>
-  </div>
-)}
+        <div className="fixed inset-0 z-50 bg-[#2A2438]/90 backdrop-blur-xl p-8 md:hidden">
+          <button className="mb-10 text-white" onClick={() => setOpen(false)}><X className="h-6 w-6" /></button>
+          <div className="flex flex-col gap-6">
+            {navLinks.map((l) => (
+              <a key={l.label} href={l.href} onClick={() => setOpen(false)} className="font-serif text-2xl text-white">{l.label}</a>
+            ))}
+            <a href="https://wa.me/919352744747" target="_blank" className="mt-4 rounded-full bg-[#DC2626] px-5 py-3 text-center text-sm font-semibold text-white">Plan My Trip</a>
+          </div>
+        </div>
       )}
     </header>
   );
