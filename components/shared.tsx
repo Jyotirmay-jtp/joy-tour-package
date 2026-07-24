@@ -16,6 +16,8 @@ export const fadeUp = {
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Packages", href: "/#packages" },
+  { label: "Guides", href: "/guides" },
+  { label: "Transport", href: "/transport" },
   { label: "Gallery", href: "/gallery" },
   { label: "FAQs", href: "/faqs" },
   { label: "Contact", href: "/contact" },
@@ -237,6 +239,8 @@ export function Footer() {
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
     { label: "Packages", href: "/#packages" },
+    { label: "Guides", href: "/guides" },
+  { label: "Transport", href: "/transport" },
     { label: "Gallery", href: "/gallery" },
     { label: "FAQs", href: "/faqs" },
     { label: "Contact", href: "/contact" },
