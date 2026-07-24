@@ -253,8 +253,11 @@ export function Footer() {
             </h3>
 
             <div className="mt-6 space-y-3 text-sm text-white/70">
-              <p>101, Vaishali Marg</p>
-              <p>Vaishali Nagar, Jaipur – 302021</p>
+              <p>Flat No. 402, Mukut Signature Prime</p>
+              <p>Plot No. 101, Nemi Nagar Extension</p>
+              <p>Vaishali Marg, Vaishali Nagar</p>
+              <p>Jaipur – 302021, Rajasthan</p>
+              <p>India</p>
               <p>+91-9352744747</p>
               <p>info@joytoursofindia.com</p>
             </div>
