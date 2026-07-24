@@ -16,7 +16,7 @@ function Hero() {
   ];
   return (
     <section className="relative flex min-h-[92vh] items-end overflow-hidden rounded-b-[48px] px-6 pb-16 pt-32 sm:px-10">
-      <LazyVideo mobileSrc="/videos/jodhpur_mobile.mp4" desktopSrc="/videos/jodhpur.mp4" poster="/images/mehrangarh.webp" />
+      <LazyVideo src="/videos/jodhpur.mp4" poster="/images/mehrangarh.webp" />
       <div className="absolute inset-0 z-10 bg-black/45" />
       <div className="absolute inset-0 z-20 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
       <div className="relative z-30 mx-auto w-full max-w-6xl">
