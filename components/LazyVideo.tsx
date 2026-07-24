@@ -3,34 +3,14 @@
 import { useEffect, useRef, useState } from "react";
 
 type LazyVideoProps = {
-  mobileSrc: string;
-  desktopSrc: string;
+  src: string;
   poster: string;
 };
 
-export function LazyVideo({
-  mobileSrc,
-  desktopSrc,
-  poster,
-}: LazyVideoProps) {
+export function LazyVideo({ src, poster }: LazyVideoProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   const [visible, setVisible] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const [src, setSrc] = useState("");
-
-  useEffect(() => {
-    const update = () => {
-      setSrc(window.innerWidth <= 768 ? mobileSrc : desktopSrc);
-      setMounted(true);
-    };
-
-    update();
-
-    window.addEventListener("resize", update);
-
-    return () => window.removeEventListener("resize", update);
-  }, [mobileSrc, desktopSrc]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -50,7 +30,7 @@ export function LazyVideo({
 
   return (
     <div ref={ref} className="absolute inset-0 z-0 h-full w-full">
-      {mounted && visible ? (
+      {visible ? (
         <video
           autoPlay
           muted
@@ -58,7 +38,7 @@ export function LazyVideo({
           playsInline
           preload="metadata"
           poster={poster}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-[60%_center] md:object-center"
         >
           <source src={src} type="video/mp4" />
         </video>
@@ -66,7 +46,7 @@ export function LazyVideo({
         <img
           src={poster}
           alt=""
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-[60%_center] md:object-center"
         />
       )}
     </div>
