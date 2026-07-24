@@ -55,7 +55,7 @@ function Hero() {
     <section className="relative flex min-h-[92vh] items-end overflow-hidden rounded-b-[48px] px-6 pb-16 pt-32 sm:px-10">
 
   {/* Background Video */}
-      <LazyVideo mobileSrc="/videos/golden_triangle_mobile.mp4" desktopSrc="/videos/golden_triangle.mp4" poster="/images/hero-poster.webp" />
+      <LazyVideo src="/videos/golden_triangle.mp4" poster="/images/hero-poster.webp" />
 
   {/* Dark Overlay */}
   <div className="absolute inset-0 z-10 bg-black/45" />
