@@ -76,7 +76,7 @@ function PackagesSection() {
   return (
     <section className="relative overflow-hidden bg-[#FAFAF7] px-6 py-24 sm:px-10">
       <div className="pointer-events-none absolute -left-32 -top-20 h-96 w-96 rounded-full bg-[#B91C1C]/20 blur-3xl" />
-<div className="pointer-events-none absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-[#4A3B47]/20 blur-3xl" />
+<div className="pointer-events-none absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-[#B91C1C]/20 blur-3xl" />
 
 
 <svg className="pointer-events-none absolute inset-0 h-full w-full opacity-[0.08]" viewBox="0 0 1000 500" fill="none">
