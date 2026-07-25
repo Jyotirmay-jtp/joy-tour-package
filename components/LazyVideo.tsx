@@ -38,7 +38,7 @@ export function LazyVideo({ src, poster }: LazyVideoProps) {
           playsInline
           preload="metadata"
           poster={poster}
-          className="h-full w-full object-cover object-[60%_center] md:object-center"
+          className="h-full w-full object-cover object-[50%_center] md:object-center"
         >
           <source src={src} type="video/mp4" />
         </video>
