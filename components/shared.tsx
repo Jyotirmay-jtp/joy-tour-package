@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Menu, X, ArrowRight, MessageCircle } from "lucide-react";
 import emailjs from "@emailjs/browser";
-
+import Image from "next/image";
 
 export const fadeUp = {
   initial: { opacity: 0, y: 32 },
@@ -39,9 +39,10 @@ export function Navbar() {
   <>
     <header className="fixed inset-x-0 top-0 z-50 bg-[#2A2438]/40 backdrop-blur-xl border-b border-white/10 shadow-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 sm:px-10">
-        <Link href="/" className="font-serif text-xl text-white drop-shadow">
-          Joy Tours of India
-        </Link>
+        <Link href="/" className="flex items-center gap-2">
+  <Image src="/images/logo.png" alt="Joy Tours of India" width={36} height={36} className="rounded-full" />
+  <span className="font-serif text-xl text-white drop-shadow">Joy Tours of India</span>
+</Link>
 
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((l) => (
