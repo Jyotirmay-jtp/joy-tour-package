@@ -131,8 +131,8 @@ Overnight stay in Udaipur.`,
 
   {
     day: "Day 9",
-    title: "Udaipur – Delhi.",
-    text: `After lunch you will proceed to airport to board flight for Delhi or you can drive to Pushkar.
+    title: "Udaipur – Pushkar.",
+    text: `After lunch, drive to Pushkar.
 
 Visit Pushkar city and Brahma Temple.
 
