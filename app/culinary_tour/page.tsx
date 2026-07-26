@@ -55,7 +55,11 @@ function AboutTour() {
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#DC2626]">The Experience</p>
         <h2 className="mt-3 font-serif text-4xl text-[#1B1B1B] sm:text-5xl">Taste the soul of Jaipur</h2>
         <p className="mx-auto mt-5 max-w-xl text-[#1B1B1B]/65">
-          Seeing the sights isn't enough — this walk takes you through the old city's by-lanes to the local outlets that Jaipur itself relies on for quality, freshness and flavour. Every stop is 100% vegetarian, prepared with great hygiene, from morning chai to the main course.
+          Usually guests come to a city, see the touristic spots and leave for their next destination — but at
+          Joy Tours of India, we strictly believe that unless you have savoured the local cuisines, walked in
+          the by-lanes of the heritage city and interacted with the local diaspora, the tour remains
+          incomplete. To truly feel the soul of a city like Jaipur, you should spare time for these
+          extra-curricular walks and activities.
         </p>
       </motion.div>
     </section>
