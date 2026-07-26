@@ -37,13 +37,7 @@ export function Navbar() {
 
   return (
   <>
-    <header
-      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        scrolled
-          ? "bg-[#2A2438]/40 backdrop-blur-xl border-b border-white/10 shadow-lg"
-          : "bg-transparent"
-      }`}
-    >
+    <header className="fixed inset-x-0 top-0 z-50 bg-[#2A2438]/40 backdrop-blur-xl border-b border-white/10 shadow-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 sm:px-10">
         <Link href="/" className="font-serif text-xl text-white drop-shadow">
           Joy Tours of India
