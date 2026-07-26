@@ -48,6 +48,9 @@ export default function GuidesPage() {
           <div className="relative h-96">
             <Image src="/images/gallery/g26.webp" alt="Our guide with a guest" fill className="object-cover" />
           </div>
+          <div className="relative h-72 overflow-hidden rounded-[28px]">
+    <Image src="/images/gallery/g27.jpeg" alt="Our guide" fill className="object-cover" />
+  </div>
         </div>
       </section>
       <Footer />
