@@ -53,8 +53,9 @@ function AboutTour() {
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#DC2626]">The Experience</p>
         <h2 className="mt-3 font-serif text-4xl text-[#1B1B1B] sm:text-5xl">A home-cooked evening in Jaipur</h2>
         <p className="mx-auto mt-5 max-w-xl text-[#1B1B1B]/65">
-          Dinner begins around 7 PM in a warm, cozy home setting. The meal is prepared right in front of you, with the spices, cuisines and cooking process explained along the way — a genuine window into how local families live and eat.
-        </p>
+Have you spent quite a bit of time in India yet still wonder how the locals live, what they
+            usually eat, and how they cook their cuisines? Let us suggest a lifetime experience — dinner with
+            a local family at their home, along with cocktails.        </p>
       </motion.div>
     </section>
   );
