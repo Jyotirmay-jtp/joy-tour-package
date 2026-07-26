@@ -44,21 +44,24 @@ export default function GuidesPage() {
         </div>
 
         {/* optional guide photo */}
-       <div className="mx-auto mt-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
-  {["g26.webp", "g27.jpeg"].map((f) => (
-    <div
-      key={f}
-      className="relative h-[320px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white"
-    >
-      <Image
-        src={`/images/transport/${f}`}
-        alt="Joy Tours vehicle"
-        fill
-        className="object-contain p-4"
-        sizes="(max-width: 768px) 100vw, 50vw"
-      />
-    </div>
-  ))}
+ <div className="relative mx-auto mt-10 h-[350px] w-full max-w-4xl overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
+  <Image
+    src="/images/gallery/g26.webp"
+    alt="Joy Tours"
+    fill
+    className="object-contain p-4"
+    sizes="100vw"
+  />
+</div>
+
+<div className="relative mx-auto mt-6 h-[350px] w-full max-w-4xl overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
+  <Image
+    src="/images/gallery/g27.jpeg"
+    alt="Joy Tours"
+    fill
+    className="object-contain p-4"
+    sizes="100vw"
+  />
 </div>
       </section>
       <Footer />
