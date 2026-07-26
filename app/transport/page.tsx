@@ -43,25 +43,13 @@ export default function TransportPage() {
 
         ...
 {/* Vehicle Photos */}
-<div className="mx-auto mt-10 max-w-6xl overflow-hidden rounded-[28px]">
-  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-    <div className="relative h-[350px] rounded-[28px] overflow-hidden border border-[#ECECEC] bg-white">
-      <Image
-        src="/images/gallery/traveller.webp"
-        alt="Joy Tours Traveller"
-        fill
-        className="object-contain p-4"
-      />
+<div className="mx-auto mt-10 grid max-w-3xl grid-cols-2 gap-4 sm:grid-cols-3">
+  {["innova.webp","muv.jpg","sedan.webp","traveller.webp","hyundai.jpg"].map((f) => (
+    <div key={f} className="relative h-40 overflow-hidden rounded-2xl">
+      <Image src={`/images/transport/${f}`} alt="Joy Tours vehicle" fill className="object-cover" />
     </div>
-
-    <div className="relative h-[350px] rounded-[28px] overflow-hidden border border-[#ECECEC] bg-white">
-      <Image
-        src="/images/gallery/sedan.webp"
-        alt="Joy Tours Sedan"
-        fill
-        className="object-contain p-4"
-      />
-    </div>
+  ))}
+</div>
   </div>
 </div>
 
