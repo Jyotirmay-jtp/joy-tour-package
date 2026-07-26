@@ -47,7 +47,7 @@ export default function TransportPage() {
 
   <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
     <Image
-      src="/images/transport/innova.webp"
+      src="/images/gallery/innova.webp"
       alt="Innova"
       fill
       className="object-contain p-4"
@@ -57,7 +57,7 @@ export default function TransportPage() {
 
   <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
     <Image
-      src="/images/transport/muv.jpg"
+      src="/images/gallery/muv.jpg"
       alt="MUV"
       fill
       className="object-contain p-4"
@@ -67,7 +67,7 @@ export default function TransportPage() {
 
   <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
     <Image
-      src="/images/transport/sedan.webp"
+      src="/images/gallery/sedan.webp"
       alt="Sedan"
       fill
       className="object-contain p-4"
@@ -77,7 +77,7 @@ export default function TransportPage() {
 
   <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
     <Image
-      src="/images/transport/traveller.webp"
+      src="/images/gallery/traveller.webp"
       alt="Traveller"
       fill
       className="object-contain p-4"
@@ -87,7 +87,7 @@ export default function TransportPage() {
 
   <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white md:col-span-2">
     <Image
-      src="/images/transport/hyundai.jpg"
+      src="/images/gallery/hyundai.jpg"
       alt="Hyundai"
       fill
       className="object-contain p-4"
