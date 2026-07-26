@@ -60,7 +60,6 @@ export default function GuidesPage() {
     </div>
   ))}
 </div>
-        </div>
       </section>
       <Footer />
       <WhatsAppButton />
