@@ -18,8 +18,7 @@ const packages = [
   { image: "/images/packages/mehrangarh.webp",title: "Golden Triangle + Udaipur/Jodhpur", badge: "Heritage", href: "/packages/golden_triangle+udaipur_jodhpur", desc: "Extend into Rajasthan's lake palaces and blue city." },
   { image: "/images/packages/prem_mandir.webp",title: "Spiritual Tour", badge: "Pilgrimage", href: "/packages/spiritual_tour", desc: "Temples, ghats and rituals across India's sacred circuit." },
   { image: "/images/packages/monastery.webp",title: "Nepal Tour", badge: "Cross-Border", href: "/packages/nepal_tour", desc: "Himalayan peaks, Kathmandu's temples and Pokhara's lakes." },
-  { image: "/images/packages/culinary.webp",title: "Culinary Tour", badge: "Food", href: "/packages/culinary_tour", desc: "Street food, royal kitchens and regional flavors across India." },
-  { image: "/images/packages/family_dinner.webp",title: "Family Dinner", badge: "Signature", href: "/packages/family_dinner", desc: "A private, curated dining evening with local hosts." },
+  
 ];
 
 const whyUs = [
