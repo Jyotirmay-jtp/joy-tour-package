@@ -43,19 +43,58 @@ export default function TransportPage() {
 
         ...
 {/* Vehicle Photos */}
-<div className="mx-auto mt-10 grid max-w-5xl grid-cols-2 gap-6">
-  {["innova.webp", "muv.jpg", "sedan.webp", "traveller.webp", "hyundai.jpg"].map((f) => (
-    <div
-      key={f}
-      className="relative h-[280px] rounded-2xl border border-[#ECECEC] bg-white p-3"
-    >
-      <Image
-        src={`/images/transport/${f}`}
-        alt="Joy Tours vehicle"
-        fill
-        className="object-contain p-3" />
-    </div>
-  ))}
+<div className="mx-auto mt-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
+
+  <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
+    <Image
+      src="/images/transport/innova.webp"
+      alt="Innova"
+      fill
+      className="object-contain p-4"
+      sizes="(max-width: 768px) 100vw, 50vw"
+    />
+  </div>
+
+  <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
+    <Image
+      src="/images/transport/muv.jpg"
+      alt="MUV"
+      fill
+      className="object-contain p-4"
+      sizes="(max-width: 768px) 100vw, 50vw"
+    />
+  </div>
+
+  <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
+    <Image
+      src="/images/transport/sedan.webp"
+      alt="Sedan"
+      fill
+      className="object-contain p-4"
+      sizes="(max-width: 768px) 100vw, 50vw"
+    />
+  </div>
+
+  <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white">
+    <Image
+      src="/images/transport/traveller.webp"
+      alt="Traveller"
+      fill
+      className="object-contain p-4"
+      sizes="(max-width: 768px) 100vw, 50vw"
+    />
+  </div>
+
+  <div className="relative h-[350px] overflow-hidden rounded-2xl border border-[#ECECEC] bg-white md:col-span-2">
+    <Image
+      src="/images/transport/hyundai.jpg"
+      alt="Hyundai"
+      fill
+      className="object-contain p-4"
+      sizes="100vw"
+    />
+  </div>
+
 </div>
 
 </section>
