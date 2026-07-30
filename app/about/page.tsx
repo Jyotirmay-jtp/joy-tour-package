@@ -1,5 +1,6 @@
 "use client";
 import { Navbar, Footer, WhatsAppButton } from "@/components/shared";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -8,7 +9,10 @@ export default function AboutPage() {
       <section className="px-6 pb-20 pt-40 sm:px-10">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#B91C1C]">Company Profile</p>
-          <h1 className="mt-3 font-serif text-4xl text-[#2C2C2C] sm:text-6xl">About Joy Tours of India</h1>
+          <div className="mt-3 flex items-center justify-center gap-3">
+  <Image src="/logo.png" alt="Joy Tours of India" width={48} height={48} className="h-[1em] w-[1em] rounded-full sm:h-[1em] sm:w-[1em]" />
+  <h1 className="font-serif text-4xl text-[#2C2C2C] sm:text-6xl">About Joy Tours of India</h1>
+</div>
         </div>
 
         <div className="mx-auto mt-14 max-w-3xl space-y-6 rounded-[32px] border border-[#ECECEC] bg-white p-8 text-[#444] leading-7 sm:p-12">
