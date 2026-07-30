@@ -12,7 +12,7 @@ const packages = [
   { image: "/images/packages/taj_mahal.webp",title: "Golden Triangle", badge: "6D/5N", href: "/packages/golden_triangle", desc: "Explore Delhi, Agra and Jaipur featuring the Taj Mahal, Amber Fort and vibrant heritage streets." },
   { image: "/images/packages/safari.webp",title: "Golden Triangle + Ranthambore", badge: "Wildlife", href: "/packages/golden_triangle+ranthambore", desc: "Add a tiger safari to the classic circuit through Delhi, Agra and Jaipur." },
   { image: "/images/packages/kochi.webp",title: "Golden Triangle + South India", badge: "Grand Tour", href: "/packages/golden_triangle+south_india", desc: "Pair Rajasthan's heritage with South India's temples and backwaters." },
-  { image: "/images/packages/temple.webp",title: "Hubli Tour", badge: "Offbeat", href: "/packages/hubli_tour", desc: "A quieter side of Karnataka, away from the usual circuits." },
+  { image: "/images/packages/temple.webp",title: "Hampi Tour", badge: "Offbeat", href: "/packages/hubli_tour", desc: "A quieter side of Karnataka, away from the usual circuits." },
   { image: "/images/packages/pangong_lake.webp",title: "Leh & Srinagar", badge: "Himalayas", href: "/packages/leh_srinagar", desc: "High-altitude passes, alpine lakes and Kashmir's houseboats." },
   { image: "/images/packages/bandhavgarh3.webp",title: "Bandhavgarh Tour", badge: "Wildlife", href: "/packages/bandhavgarh_tour", desc: "Track tigers through one of India's richest national parks." },
   { image: "/images/packages/mehrangarh.webp",title: "Golden Triangle + Udaipur/Jodhpur", badge: "Heritage", href: "/packages/golden_triangle+udaipur_jodhpur", desc: "Extend into Rajasthan's lake palaces and blue city." },
