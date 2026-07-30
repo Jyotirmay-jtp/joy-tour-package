@@ -79,9 +79,14 @@ export default function AboutPage() {
     <p className="mt-2 text-sm text-[#444]">✉️ info@joytoursofindia.com</p>
   </div>
   <div className="overflow-hidden rounded-2xl border border-[#ECECEC]">
-    <iframe
-  src="https://www.google.com/maps?q=101,+Vaishali+Marg,+Nemi+Nagar+Extension,+Block+A,+Vaishali+Nagar,+Jaipur,+Rajasthan+302021&output=embed"
+    
+<iframe
+  src="https://www.google.com/maps?q=Mukut+Signature+Prime,+Jaipur&output=embed"
   className="h-full w-full min-h-[220px]"
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+    className="h-full w-full min-h-[220px]"
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
 />
