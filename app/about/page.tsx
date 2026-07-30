@@ -18,6 +18,13 @@ export default function AboutPage() {
   className="h-12 w-12 object-contain sm:h-14 sm:w-14"
 />
   <h1 className="font-serif text-4xl text-[#2C2C2C] sm:text-6xl">About Joy Tours of India</h1>
+             <Image
+  src="/images/logo.png"
+  alt="Joy Tours of India"
+  width={60}
+  height={60}
+  className="h-12 w-12 object-contain sm:h-14 sm:w-14"
+/>
 </div>
         </div>
 
