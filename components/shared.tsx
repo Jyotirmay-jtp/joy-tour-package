@@ -255,9 +255,10 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2">
           {/* Brand & Contact */}
           <div>
-            <h3 className="font-serif text-2xl text-white">
-              Joy Tours of India
-            </h3>
+            <div className="flex items-center gap-2">
+  <Image src="/logo.png" alt="Joy Tours of India" width={32} height={32} className="h-[1em] w-[1em] rounded-full" />
+  <h3 className="font-serif text-2xl text-white">Joy Tours of India</h3>
+</div>
 
             <div className="mt-6 space-y-3 text-sm text-white/70">
               <p>Flat No. 402, Mukut Signature Prime</p>
