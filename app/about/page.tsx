@@ -10,7 +10,13 @@ export default function AboutPage() {
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#B91C1C]">Company Profile</p>
           <div className="mt-3 flex items-center justify-center gap-3">
-  <Image src="/images/logo.png" alt="Joy Tours of India" width={48} height={48} className="rounded-full" />
+  <Image
+  src="/images/logo.png"
+  alt="Joy Tours of India"
+  width={60}
+  height={60}
+  className="h-12 w-12 object-contain sm:h-14 sm:w-14"
+/>
   <h1 className="font-serif text-4xl text-[#2C2C2C] sm:text-6xl">About Joy Tours of India</h1>
 </div>
         </div>
