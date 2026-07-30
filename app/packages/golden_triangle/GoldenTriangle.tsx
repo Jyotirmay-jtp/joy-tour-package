@@ -87,7 +87,7 @@ const days = [
     place: "Jaipur, the Pink City",
     subtitle: "Palaces, stargazing instruments, and local craft",
     travel: "Full day · City transfers",
-    highlights: ["Amber Fort", "City Palace", "Jantar Mantar", "Shopping & local crafts"],
+    highlights: ["Amber Palace", "City Palace", "Jantar Mantar", "Shopping & local crafts"],
     tone: "primary",
   },
   {
