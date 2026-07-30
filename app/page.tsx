@@ -9,7 +9,7 @@ import Link from "next/link";
 import { LazyVideo } from "@/components/LazyVideo";
 
 const packages = [
-  { image: "/images/packages/taj_mahal.webp",title: "Golden Triangle", badge: "6D/5N", href: "/packages/golden_triangle", desc: "Explore Delhi, Agra and Jaipur featuring the Taj Mahal, Amber Fort and vibrant heritage streets." },
+  { image: "/images/packages/taj_mahal.webp",title: "Golden Triangle", badge: "6D/5N", href: "/packages/golden_triangle", desc: "Explore Delhi, Agra and Jaipur featuring the Taj Mahal, Amber Palace and vibrant heritage streets." },
   { image: "/images/packages/safari.webp",title: "Golden Triangle + Ranthambore", badge: "Wildlife", href: "/packages/golden_triangle+ranthambore", desc: "Add a tiger safari to the classic circuit through Delhi, Agra and Jaipur." },
   { image: "/images/packages/kochi.webp",title: "Golden Triangle + South India", badge: "Grand Tour", href: "/packages/golden_triangle+south_india", desc: "Pair Rajasthan's heritage with South India's temples and backwaters." },
   { image: "/images/packages/temple.webp",title: "Hampi Tour", badge: "Offbeat", href: "/packages/hubli_tour", desc: "A quieter side of Karnataka, away from the usual circuits." },
