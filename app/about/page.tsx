@@ -9,16 +9,16 @@ export default function AboutPage() {
       <section className="px-6 pb-20 pt-40 sm:px-10">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#B91C1C]">Company Profile</p>
-          <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
+         <div className="mt-3 flex items-center justify-center gap-4 whitespace-nowrap">
   <Image
     src="/images/logo.png"
     alt="Joy Tours of India"
     width={60}
     height={60}
-    className="h-12 w-12 object-contain sm:h-14 sm:w-14"
+    className="h-12 w-12 flex-shrink-0 object-contain sm:h-14 sm:w-14"
   />
 
-  <h1 className="font-serif text-center text-4xl text-[#2C2C2C] sm:text-6xl">
+  <h1 className="font-serif text-3xl text-[#2C2C2C] sm:text-6xl">
     About Joy Tours of India
   </h1>
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
     alt="Joy Tours of India"
     width={60}
     height={60}
-    className="h-12 w-12 object-contain sm:h-14 sm:w-14"
+    className="h-12 w-12 flex-shrink-0 object-contain sm:h-14 sm:w-14"
   />
 </div>
         </div>
