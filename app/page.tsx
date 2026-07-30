@@ -76,7 +76,9 @@ function Hero() {
 
 function PackagesSection() {
   return (
-    <section className="relative overflow-hidden bg-[#FAFAF7] px-6 py-24 sm:px-10">
+    <section 
+       id="packages"
+      className="relative overflow-hidden bg-[#FAFAF7] px-6 py-24 sm:px-10">
       <div className="pointer-events-none absolute -left-32 -top-20 h-96 w-96 rounded-full bg-[#B91C1C]/20 blur-3xl" />
 <div className="pointer-events-none absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-[#B91C1C]/20 blur-3xl" />
 
