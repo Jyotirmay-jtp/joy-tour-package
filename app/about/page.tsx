@@ -69,8 +69,13 @@ export default function AboutPage() {
     <div className="mx-auto mt-10 grid max-w-3xl gap-6 sm:grid-cols-2">
   <div className="rounded-2xl border border-[#ECECEC] bg-white p-6">
     <p className="text-xs font-semibold uppercase tracking-wide text-[#B91C1C]">Contact</p>
-    <p className="mt-3 text-sm text-[#444]">📍 101, Vaishali Marg, Vaishali Nagar, Jaipur – 302021</p>
-    <p className="mt-2 text-sm text-[#444]">📞 +91-9352744747</p>
+<p className="mt-3 text-sm leading-6 text-[#444]">
+  📍 Flat No. 402, Mukut Signature Prime<br />
+  Plot No. 101, Nemi Nagar Extension<br />
+  Vaishali Marg, Vaishali Nagar<br />
+  Jaipur – 302021, Rajasthan<br />
+  India
+</p>    <p className="mt-2 text-sm text-[#444]">📞 +91-9352744747</p>
     <p className="mt-2 text-sm text-[#444]">✉️ info@joytoursofindia.com</p>
   </div>
   <div className="overflow-hidden rounded-2xl border border-[#ECECEC]">
