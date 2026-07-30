@@ -134,7 +134,7 @@ function Hero() {
 // ---------------------------------------------------------------------------
 function QuickOverview() {
   const cities = ["Delhi", "Agra", "Jaipur"];
-  const highlights = ["Taj Mahal", "Amber Fort", "Jama Masjid", "Qutub Minar", "Fatehpur Sikri"];
+  const highlights = ["Taj Mahal", "Amber Palace", "Jama Masjid", "Qutub Minar", "Fatehpur Sikri"];
 
   return (
     <section className="px-6 py-10 sm:px-10">
