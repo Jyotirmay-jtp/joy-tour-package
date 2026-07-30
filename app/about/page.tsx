@@ -86,10 +86,7 @@ export default function AboutPage() {
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
 />
-    className="h-full w-full min-h-[220px]"
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-/>
+ 
   </div>
 </div>
 
