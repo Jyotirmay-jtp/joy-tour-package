@@ -256,7 +256,7 @@ export function Footer() {
           {/* Brand & Contact */}
           <div>
             <div className="flex items-center gap-2">
-  <Image src="/public/images/logo1.png" alt="Joy Tours of India" width={32} height={32} className="h-[1em] w-[1em] rounded-full" />
+  <Image src="/images/logo1.png" alt="Joy Tours of India" width={32} height={32} className="h-12 w-12 object-contain" />
   <h3 className="font-serif text-2xl text-white">Joy Tours of India</h3>
 </div>
 
