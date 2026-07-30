@@ -16,10 +16,10 @@ export default function AboutPage() {
     alt="Joy Tours of India"
     width={60}
     height={60}
-    className="h-8 w-8 flex-shrink-0 object-contain sm:h-14 sm:w-14"
+   className="h-[clamp(2rem,5vw,3.5rem)] w-[clamp(2rem,5vw,3.5rem)] object-contain flex-shrink-0"
   />
 
-  <h1 className="text-center font-serif text-2xl text-[#2C2C2C] sm:text-6xl">
+  <h1 className="text-center font-serif text-[clamp(1.25rem,4vw,3.75rem)] text-[#2C2C2C]">
     About Joy Tours of India
   </h1>
 
@@ -28,7 +28,7 @@ export default function AboutPage() {
     alt="Joy Tours of India"
     width={60}
     height={60}
-    className="h-8 w-8 flex-shrink-0 object-contain sm:h-14 sm:w-14"
+    className="h-[clamp(2rem,5vw,3.5rem)] w-[clamp(2rem,5vw,3.5rem)] object-contain flex-shrink-0"
   />
 </div>
         </div>
