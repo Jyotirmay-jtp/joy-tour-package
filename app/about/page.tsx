@@ -10,25 +10,13 @@ export default function AboutPage() {
       <section className="px-6 pb-20 pt-40 sm:px-10">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#B91C1C]">Company Profile</p>
-         <div className="mt-3 flex items-center justify-center gap-2 sm:gap-4">
+         <div className="mt-4 flex justify-center">
   <Image
-    src="/images/logo.png"
+    src="/images/logo1.png"
     alt="Joy Tours of India"
-    width={60}
-    height={60}
-   className="h-[clamp(2rem,5vw,3.5rem)] w-[clamp(2rem,5vw,3.5rem)] object-contain flex-shrink-0"
-  />
-
-  <h1 className="text-center font-serif text-[clamp(1.25rem,4vw,3.75rem)] text-[#2C2C2C]">
-    About Joy Tours of India
-  </h1>
-
-  <Image
-    src="/images/logo.png"
-    alt="Joy Tours of India"
-    width={60}
-    height={60}
-    className="h-[clamp(2rem,5vw,3.5rem)] w-[clamp(2rem,5vw,3.5rem)] object-contain flex-shrink-0"
+    width={160}
+    height={160}
+    className="h-[clamp(5rem,12vw,10rem)] w-auto object-contain"
   />
 </div>
         </div>
