@@ -9,7 +9,7 @@ export default function AboutPage() {
       <Navbar />
       <section className="px-6 pb-20 pt-40 sm:px-10">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#B91C1C]">Company Profile</p>
+          /* <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#B91C1C]">Company Profile</p> */
          <div className="mt-4 flex justify-center">
   <Image
     src="/images/logo1.png"
