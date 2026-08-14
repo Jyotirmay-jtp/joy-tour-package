@@ -9,7 +9,7 @@ function Hero() {
     { icon: Clock, label: "Start Time", value: "7:00 PM" },
     { icon: MapPin, label: "Location", value: "Local Home, Jaipur" },
     { icon: Users, label: "Style", value: "Family-Hosted Dinner" },
-    { icon: IndianRupee, label: "Cost", value: "₹3,000 per person" },
+    { icon: IndianRupee, label: "Cost", value: "₹2,200 per person" },
   ];
   return (
     <section className="relative flex min-h-[80vh] items-end overflow-hidden rounded-b-[48px] px-6 pb-16 pt-32 sm:px-10">
@@ -62,7 +62,7 @@ Have you spent quite a bit of time in India yet still wonder how the locals live
 }
 
 function Inclusions() {
-  const included = ["Pickup from your hotel (within 10 km of the venue)", "Beer and hard drinks", "Bottled water", "Starters", "Main course — veg & non-veg (non-veg not served on Tuesdays)", "Desserts", "Drop back at your hotel"];
+  const included = ["Beer and hard drinks", "Bottled water", "Starters", "Main course — veg & non-veg (non-veg not served on Tuesdays)", "Desserts", "Drop back at your hotel"];
   const excluded = ["Hotels beyond 10 km from the venue"];
   return (
     <section className="px-6 pb-16 sm:px-10">
@@ -77,16 +77,7 @@ function Inclusions() {
             ))}
           </ul>
         </motion.div>
-        <motion.div {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.1 }} className="rounded-[28px] bg-white p-6 shadow-[0_20px_60px_-25px_rgba(27,27,27,0.15)] sm:p-8">
-          <h3 className="font-serif text-2xl text-[#1B1B1B]">Good to Know</h3>
-          <ul className="mt-5 space-y-3">
-            {excluded.map((i) => (
-              <li key={i} className="flex items-start gap-2.5 text-sm text-[#1B1B1B]/80">
-                <XCircle className="mt-0.5 h-4 w-4 shrink-0 text-[#DC2626]" strokeWidth={2} /> {i}
-              </li>
-            ))}
-          </ul>
-        </motion.div>
+       
       </div>
     </section>
   );
@@ -95,7 +86,7 @@ function Inclusions() {
 export default function DinnerWithIndianFamilyPage() {
   const highlights = [
     { icon: Utensils, label: "Home-Cooked Cuisine" }, { icon: Wine, label: "Cocktails & Drinks" }, { icon: MapPin, label: "Authentic Home Setting" },
-    { icon: Droplets, label: "Hygienic Preparation" }, { icon: Car, label: "Hotel Pickup & Drop" }, { icon: Users, label: "Genuine Local Hospitality" },
+    { icon: Droplets, label: "Hygienic Preparation" }, { icon: Users, label: "Genuine Local Hospitality" },
   ];
   const whyUs = [
     { icon: ShieldCheck, label: "25+ Years Experience" }, { icon: Compass, label: "Local Experts" }, { icon: Sparkles, label: "Authentic Experiences" },
