@@ -75,7 +75,7 @@ function Inclusions() {
 
   return (
     <section className="px-6 pb-16 sm:px-10">
-      <div className="mx-auto flex max-w-5xl justify-center">
+      <div className="mx-auto flex max-w-5xl items-center justify-center">
         <motion.div
           {...fadeUp}
           className="w-full max-w-2xl rounded-[28px] bg-white p-6 shadow-[0_20px_60px_-25px_rgba(27,27,27,0.15)] sm:p-8"
