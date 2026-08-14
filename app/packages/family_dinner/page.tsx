@@ -62,22 +62,43 @@ Have you spent quite a bit of time in India yet still wonder how the locals live
 }
 
 function Inclusions() {
-  const included = ["Beer and hard drinks", "Bottled water", "Starters", "Main course — veg & non-veg (non-veg not served on Tuesdays)", "Desserts", "Drop back at your hotel"];
+  const included = [
+    "Beer and hard drinks",
+    "Bottled water",
+    "Starters",
+    "Main course — veg & non-veg (non-veg not served on Tuesdays)",
+    "Desserts",
+    "Drop back at your hotel",
+  ];
+
   const excluded = ["Hotels beyond 10 km from the venue"];
+
   return (
     <section className="px-6 pb-16 sm:px-10">
-      <div className="mx-auto grid max-w-5xl gap-6 sm:grid-cols-2">
-        <motion.div {...fadeUp} className="rounded-[28px] bg-white p-6 shadow-[0_20px_60px_-25px_rgba(27,27,27,0.15)] sm:p-8">
-          <h3 className="font-serif text-2xl text-[#1B1B1B]">What's Included</h3>
+      <div className="mx-auto flex max-w-5xl justify-center">
+        <motion.div
+          {...fadeUp}
+          className="w-full max-w-2xl rounded-[28px] bg-white p-6 shadow-[0_20px_60px_-25px_rgba(27,27,27,0.15)] sm:p-8"
+        >
+          <h3 className="font-serif text-2xl text-[#1B1B1B]">
+            What's Included
+          </h3>
+
           <ul className="mt-5 space-y-3">
             {included.map((i) => (
-              <li key={i} className="flex items-start gap-2.5 text-sm text-[#1B1B1B]/80">
-                <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#3D7A66]" strokeWidth={2} /> {i}
+              <li
+                key={i}
+                className="flex items-start gap-2.5 text-sm text-[#1B1B1B]/80"
+              >
+                <CheckCircle2
+                  className="mt-0.5 h-4 w-4 shrink-0 text-[#3D7A66]"
+                  strokeWidth={2}
+                />
+                {i}
               </li>
             ))}
           </ul>
         </motion.div>
-       
       </div>
     </section>
   );
