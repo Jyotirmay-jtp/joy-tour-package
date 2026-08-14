@@ -85,9 +85,13 @@ function Inclusions() {
 
 export default function DinnerWithIndianFamilyPage() {
   const highlights = [
-    { icon: Utensils, label: "Home-Cooked Cuisine" }, { icon: Wine, label: "Cocktails & Drinks" }, { icon: MapPin, label: "Authentic Home Setting" },
-    { icon: Droplets, label: "Hygienic Preparation" }, { icon: Users, label: "Genuine Local Hospitality" },
-  ];
+  { icon: Utensils, label: "Home-Cooked Cuisine" },
+  { icon: Wine, label: "Cocktails & Drinks" },
+  { icon: MapPin, label: "Authentic Home Setting" },
+  { icon: Droplets, label: "Hygienic Preparation" },
+  { icon: Users, label: "Genuine Local Hospitality" },
+  { icon: Utensils, label: "Traditional Family Recipes" },
+];
   const whyUs = [
     { icon: ShieldCheck, label: "25+ Years Experience" }, { icon: Compass, label: "Local Experts" }, { icon: Sparkles, label: "Authentic Experiences" },
     { icon: MapPin, label: "Personalized Itineraries" }, { icon: Wine, label: "Curated Food & Drinks" }, { icon: Headphones, label: "24×7 Support" },
