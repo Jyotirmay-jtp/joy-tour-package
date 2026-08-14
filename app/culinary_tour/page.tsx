@@ -9,7 +9,7 @@ function Hero() {
     { icon: Clock, label: "Duration", value: "3–4 Hours" },
     { icon: MapPin, label: "Location", value: "Old City, Jaipur" },
     { icon: Users, label: "Style", value: "Guided Heritage Walk" },
-    { icon: IndianRupee, label: "Cost", value: "₹3,000 per person" },
+    { icon: IndianRupee, label: "Cost", value: "₹2,000 per person" },
   ];
   return (
     <section className="relative flex min-h-[80vh] items-end overflow-hidden rounded-b-[48px] px-6 pb-16 pt-32 sm:px-10">
