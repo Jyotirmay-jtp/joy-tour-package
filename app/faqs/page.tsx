@@ -1,5 +1,7 @@
 "use client";
 import { Navbar, Footer, WhatsAppButton } from "@/components/shared";
+import { FAQSchema } from "@/components/schema";
+
 
 const faqs = [
   { q: "What is the price of an India tour package?", a: "India can be enjoyed on a wide range of budgets. On average, traveling economically may cost about USD 100 per day, while luxury travel can go up to USD 1,000 per day or more, depending on the choice of hotels, cars, and services." },
@@ -24,6 +26,7 @@ const faqs = [
 export default function FAQsPage() {
   return (
     <main className="bg-[#FAFAF7] font-sans text-[#1B1B1B]">
+      <FAQSchema faqs={faqs.map(f => ({ q: f.q, a: f.a }))} />
       <Navbar />
       <section className="px-6 pb-20 pt-40 sm:px-10">
         <div className="mx-auto max-w-3xl text-center">
