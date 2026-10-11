@@ -3,11 +3,7 @@ import { Navbar, Footer, WhatsAppButton } from "@/components/shared";
 import { FAQSchema } from "@/components/schema";
 
 
-export const metadata = {
-  title: "FAQs",
-  description: "Common questions about traveling in India — visas, weather, tipping, safety, packing and more, answered by Joy Tours of India.",
-  alternates: { canonical: "https://joytoursofindia.com/faqs" },
-};
+
 
 const faqs = [
   { q: "What is the price of an India tour package?", a: "India can be enjoyed on a wide range of budgets. On average, traveling economically may cost about USD 100 per day, while luxury travel can go up to USD 1,000 per day or more, depending on the choice of hotels, cars, and services." },
