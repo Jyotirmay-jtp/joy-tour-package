@@ -2,6 +2,13 @@
 import Image from "next/image";
 import { Navbar, Footer, WhatsAppButton } from "@/components/shared";
 
+export const metadata = {
+  title: "Comfortable Transportation",
+  description: "Air-conditioned sedans, SUVs, tempo travellers and coaches with professional drivers — reliable transport for every India tour.",
+  alternates: { canonical: "https://joytoursofindia.com/transport" },
+};
+
+
 const vehicles = ["Sedan Cars", "Premium Luxury Sedans", "SUVs", "MUVs", "Tempo Travellers", "Mini Coaches", "Large Luxury Coaches"];
 
 export default function TransportPage() {
