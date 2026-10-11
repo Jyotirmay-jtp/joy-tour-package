@@ -3,6 +3,11 @@ import { motion } from "framer-motion";
 import { Navbar, Footer, WhatsAppButton, fadeUp } from "@/components/shared";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Gallery",
+  description: "Photos from our India tours — heritage sites, wildlife safaris, cultural experiences and landscapes across Rajasthan and beyond.",
+  alternates: { canonical: "https://joytoursofindia.com/gallery" },
+};
 
 const categories = [ "Heritage", "Wildlife", "Culture", "Landscapes"];
 
