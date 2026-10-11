@@ -2,6 +2,13 @@
 import { Navbar, Footer, WhatsAppButton } from "@/components/shared";
 import Image from "next/image";
 
+export const metadata = {
+  title: "About Us",
+  description: "Joy Tours of India — a Jaipur-based travel company established in 2018, offering personalized India tours with local expertise and dedicated service.",
+  alternates: { canonical: "https://joytoursofindia.com/about" },
+  openGraph: { title: "About Joy Tours of India", description: "A trusted Jaipur-based travel company since 2018.", images: ["/images/hero-poster.webp"] },
+};
+
 export default function AboutPage() {
   return (
     
