@@ -4,6 +4,13 @@ import { motion } from "framer-motion";
 import { fadeUp, Navbar, IconGrid, CTA, Footer, WhatsAppButton } from "@/components/shared";
 import { LazyVideo } from "@/components/LazyVideo";
 
+export const metadata = {
+  title: "Family Dinner Experience",
+  description: "Dine with a local Indian family at their home — an authentic evening of home-cooked food and genuine hospitality.",
+  alternates: { canonical: "https://joytoursofindia.com/family-dinner" },
+};
+
+
 function Hero() {
   const infoCards = [
     { icon: Clock, label: "Start Time", value: "7:00 PM" },
