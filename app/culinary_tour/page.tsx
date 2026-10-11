@@ -4,6 +4,13 @@ import { motion } from "framer-motion";
 import { fadeUp, Navbar, IconGrid, CTA, Footer, WhatsAppButton } from "@/components/shared";
 import { LazyVideo } from "@/components/LazyVideo";
 
+export const metadata = {
+  title: "Cuisine Experiences",
+  description: "Savour local cuisines and heritage bazaars with Joy Tours of India — food walks that reveal the true soul of each city.",
+  alternates: { canonical: "https://joytoursofindia.com/cuisine" },
+};
+
+
 function Hero() {
   const infoCards = [
     { icon: Clock, label: "Duration", value: "3–4 Hours" },
