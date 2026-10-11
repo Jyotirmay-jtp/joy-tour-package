@@ -2,6 +2,12 @@
 import { Phone, Mail, MessageCircle } from "lucide-react";
 import { Navbar, Footer, WhatsAppButton, ContactSection } from "@/components/shared";
 
+export const metadata = {
+  title: "Contact Us",
+  description: "Get in touch with Joy Tours of India — call, WhatsApp, or email us to plan your personalized India tour.",
+  alternates: { canonical: "https://joytoursofindia.com/contact" },
+};
+
 export default function ContactPage() {
   return (
     <main className="bg-[#FAFAF7] font-sans text-[#1B1B1B]">
