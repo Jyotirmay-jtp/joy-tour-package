@@ -2,11 +2,6 @@
 import Image from "next/image";
 import { Navbar, Footer, WhatsAppButton } from "@/components/shared";
 
-export const metadata = {
-  title: "Expert Tourist Guides",
-  description: "Government-approved, licensed local tourist guides — the cultural ambassadors who bring India's history and traditions to life on your tour.",
-  alternates: { canonical: "https://joytoursofindia.com/guides" },
-};
 
 
 export default function GuidesPage() {
